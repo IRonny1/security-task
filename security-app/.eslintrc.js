@@ -50,7 +50,6 @@ module.exports = {
         endOfLine: "auto",
       },
     ],
-    "no-console": ["warn"],
     "no-redeclare": "off",
     "simple-import-sort/imports": "warn",
     "simple-import-sort/exports": "warn",
