@@ -1,4 +1,12 @@
 class UserController {
+  async currentUser(request, response, next) {
+    try {
+      response.json(["TEST"]);
+    } catch (err) {
+      console.log(err);
+    }
+  }
+
   async registration(request, response, next) {
     try {
     } catch (err) {
